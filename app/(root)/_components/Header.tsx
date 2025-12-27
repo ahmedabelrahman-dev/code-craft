@@ -6,7 +6,7 @@ import { Blocks, Code2, Sparkles } from "lucide-react";
 import { SignedIn, SignOutButton, UserButton } from "@clerk/nextjs";
 import ThemeSelector from "./ThemeSelector";
 import LanguageSelector from "./LanguageSelector";
-// import RunButton from "./RunButton";
+import RunButton from "./RunButton";
 import HeaderProfileBtn from "./HeaderProfileBtn";
 
 async function Header() {
@@ -93,7 +93,7 @@ async function Header() {
           )}
 
           <SignedIn>
-            {/* <RunButton /> */}
+            <RunButton />
           </SignedIn>
 
           <div className="pl-3 border-l border-gray-800">
