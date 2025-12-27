@@ -1,6 +1,6 @@
-// import EditorPanel from "./_components/EditorPanel";
+import EditorPanel from "./_components/EditorPanel";
 import Header from './_components/Header';
-// import OutputPanel from "./_components/OutputPanel";
+import OutputPanel from "./_components/OutputPanel";
 
 export default async function Home() {
   return (
@@ -9,8 +9,8 @@ export default async function Home() {
         <Header />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {/* <EditorPanel />
-          <OutputPanel /> */}
+           <EditorPanel />
+          <OutputPanel /> 
         </div>
       </div>
     </div>
