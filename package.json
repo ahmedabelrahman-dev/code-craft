@@ -11,6 +11,7 @@
   "dependencies": {
     "@clerk/nextjs": "^6.36.5",
     "@monaco-editor/react": "^4.7.0",
+    "@stripe/stripe-js": "^8.6.0",
     "convex": "^1.31.2",
     "framer-motion": "^12.23.26",
     "lucide-react": "^0.562.0",
@@ -19,6 +20,7 @@
     "react-dom": "19.2.3",
     "react-hot-toast": "^2.6.0",
     "react-syntax-highlighter": "^16.1.0",
+    "stripe": "^20.1.0",
     "svix": "^1.82.0",
     "zustand": "^5.0.9"
   },
@@ -28,6 +30,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/react-syntax-highlighter": "^15.5.13",
+    "@types/stripe": "^8.0.416",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
     "tailwindcss": "^4",
